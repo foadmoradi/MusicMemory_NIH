@@ -1,21 +1,46 @@
-# MusicMemory_NIH
-Based on Adolescent Brain Cognitive Development (ABCD) Dataset provided by NIH, We Investigate Relationship
-Between Memory of Musicians and Non-musicians.
+## MusicMemory_NIH
+This project explores the relationship between musical training and memory performance using data from the Adolescent Brain Cognitive Development (ABCD) study, provided by the NIH (National Institutes of Health).
 
-Links to dataset:
+We compare memory abilities between musicians and non-musicians using standardized cognitive tests, and further examine whether the amount of musical practice correlates with memory performance.
+
+## 📊 Dataset
+Data used in this project comes from the following NIH ABCD datasets:
+
+abcd_tb_tlb01 (Picture Sequence Memory Test)
+
+abcd_lpsaiq01 (List Sorting Working Memory Test)
+
+You can access them at:
 https://nda.nih.gov/data-structure/abcd_tb_tlb01
 and
 https://nda.nih.gov/data-structure/abcd_lpsaiq01
 
-# How to Run
-To use this MATLAB source code, please make sure to put all .csv files of NIH ABCD dataset into the folder "NIHTB", and then run the files in order.
-First_ReadFiles.m, Second_ScoresTests.m, Third_ReadMusixData.m, Fourth_CorrelationPracticeTime.m
+Please download the .csv files and place them in a folder named NIHTB.
 
-# Explanation
-Two memort tasks are utilized for both musicians and non-musicians.
-First task: Picture Sequence Memory Test (PSMT)
-Second Test: List Sorting Working Memory Test (LSWMT)
+## 🧠 Memory Tasks Used
+PSMT (Picture Sequence Memory Test): Measures episodic memory by asking participants to recall sequences of pictures.
 
-Results indicated that due to the p-value less than 0.05, memory score of musicians and non'musicians differ significantly.
-But the training hours per week doesn't correlate with memory score of musicians. Therefore, musicians who practice more don't
-necessarily have better memory scores.
+LSWMT (List Sorting Working Memory Test): Assesses working memory by requiring subjects to sort and recall items by category and size.
+
+## 🛠 How to Run
+This repository includes MATLAB code. To run the analysis:
+
+Place all relevant NIH .csv files into the NIHTB folder.
+
+Execute the scripts in the following order:
+
+First_ReadFiles.m,
+Second_ScoresTests.m,
+Third_ReadMusixData.m,
+Fourth_CorrelationPracticeTime.m
+
+## 📈 Key Findings
+A statistically significant difference (p < 0.05) was found in memory scores between musicians and non-musicians.
+
+However, among musicians, there was no significant correlation between weekly practice hours and memory performance.
+
+🔎 This suggests that musical training may be associated with enhanced memory, but increased practice time alone does not predict higher memory scores.
+
+## 👤 Author
+Foad Moradi
+Data Scientist | Signal Processing Researcher | Neuroscience Enthusiast
