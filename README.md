@@ -42,5 +42,6 @@ However, among musicians, there was no significant correlation between weekly pr
 🔎 This suggests that musical training may be associated with enhanced memory, but increased practice time alone does not predict higher memory scores.
 
 ## 👤 Author
-Foad Moradi
-Data Scientist | Signal Processing Researcher | Neuroscience Enthusiast
+Foad Moradi.
+Find me on social media utilizing the following hashtag:
+#foadmoradimusic
