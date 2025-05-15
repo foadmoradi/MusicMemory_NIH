@@ -1,5 +1,10 @@
 # MusicMemory_NIH
-Based on ABCD Dataset provided by NIH, We Investigate Relationship Between Memory of Musicians and Non-musicians
+Based on Adolescent Brain Cognitive Development (ABCD) Dataset provided by NIH, We Investigate Relationship
+Between Memory of Musicians and Non-musicians.
+
+Links to dataset:
+https://nda.nih.gov/data-structure/abcd_tb_tlb01
+https://nda.nih.gov/data-structure/abcd_lpsaiq01
 
 # How to Run
 To use this MATLAB source code, please make sure to put all .csv files of NIH ABCD dataset into the folder "NIHTB", and then run the files in order.
